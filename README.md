@@ -33,7 +33,7 @@ The app divides your goal by your monthly savings and rounds up to the nearest w
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/your-username/financial-goal-calculator.git
+git clone https://github.com/KlartqOrAiko/financial-goal-calculator.git
 cd financial-goal-calculator
 ```
 
