@@ -34,7 +34,7 @@ The app divides your goal by your monthly savings and rounds up to the nearest w
 **1. Clone the repository**
 ```bash
 git clone https://github.com/KlartqOrAiko/FinancialHelper.git
-cd financial-goal-calculator
+cd FinancialHelper
 ```
 
 **2. Run the application**
