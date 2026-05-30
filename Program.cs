@@ -5,24 +5,24 @@ class Program
     static void Main()
     {
       int Number = 0;
-      int Guardado = 0;
-      Console.WriteLine("Digite o quanto você quer ganhar"); 
+      int Saved = 0;
+      Console.WriteLine("Type the amount you want to earn"); 
       if (int.TryParse(Console.ReadLine(), out Number) == false)
     {
-         Console.WriteLine("Digite um número válido");
+         Console.WriteLine("Type a valid number");
     }
       else
         {
-         Console.WriteLine("Agora digite o quanto você consegue guardar por mês");
-         if (int.TryParse(Console.ReadLine(), out Guardado) == false)
+         Console.WriteLine("Now type how much you can save per month");
+         if (int.TryParse(Console.ReadLine(), out Saved) == false)
         {
-             Console.WriteLine("Digite um número válido");
+             Console.WriteLine("Type a valid number");
         }
             else
             {
-                int Meses = (int)Math.Ceiling((double)Number / Guardado);
-                Console.WriteLine($"Você precisará guardar por {Meses} meses para alcançar seu objetivo.");
+                int Months = (int)Math.Ceiling((double)Number / Saved);
+                Console.WriteLine($"You will need to save for {Months} months to reach your goal.");
             }
         }    
     }   
-}    
+} 
